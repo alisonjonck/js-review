@@ -34,19 +34,24 @@ function completarNumeracao(idOpcao){
     }
 }
 
-document.getElementById("operador").onchange = function(){
-    console.log(document.getElementById("operador").value);
+document.getElementById("operador").onchange = calcular;
+document.getElementById("primeiroOperador").onchange = calcular;
+document.getElementById("segundoOperador").onchange = calcular;
+
+
+function calcular() {
 
     // pega valor dos combos
     var primeiroNumero = document.getElementById("primeiroOperador").value;
     var segundoNumero = document.getElementById("segundoOperador").value;
-    
+    var operacao = document.getElementById("operador").value;
+
     // verifica se o valor eh um numero de 0 a 9
-    if (primeiroNumero != "-" && segundoNumero != "-"){
-       calculadora.createOperation(primeiroNumero, segundoNumero, "+");
-       atualizarResultado();
+    if (primeiroNumero != "-" && segundoNumero != "-") {
+        calculadora.createOperation(primeiroNumero, segundoNumero, operacao);
+        atualizarResultado();
     }
 
     // chama metodo calcular operacao da `calculadora`
-    
+
 }

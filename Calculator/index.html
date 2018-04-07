@@ -1,18 +1,19 @@
 <HTML>
-
+<link href="css/style.css" rel="stylesheet">
 <Head>
     <title>JS Review</title>
+    
 </Head>
 
 <body>
     <div>
-        <h1>
+        <h1 class="title">
             Calculator
         </h1>
         <p>
-            <input type="text" id="resultado">
-            <button id="btnHello"> Hello World!</button>
-            <button id="btnClean">Limpar</button>
+            
+            <button id="btnHello" class="button"> Hello World!</button>
+            <button id="btnClean" class="button">Limpar</button>
 
 
             <select id="primeiroOperador">
@@ -20,16 +21,17 @@
             </select>
 
             <select id="operador">
-                <option>+</option>
-                <option>-</option>
-                <option>*</option>
-                <option>/</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
             </select>
 
 
             <select id="segundoOperador">
                 <option>-</option>
             </select>
+            <input type="text" id="resultado">
         </p>
     </div>
 </body>

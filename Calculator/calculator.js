@@ -8,6 +8,7 @@ var Calculator = /*Essa é a função*/function () {
 
     this.cleanResult = function () {
         result = 0;
+        return this;
     }
 
     // Criada para testar o 'return'
@@ -20,10 +21,16 @@ var Calculator = /*Essa é a função*/function () {
     this.createOperation = function (num1, num2, tipoOperacao) {
         if (tipoOperacao == '+') {
             result = parseInt(num1) + parseInt(num2);
+        } else if (tipoOperacao == '-') {
+            result = parseInt(num1) - parseInt(num2);
+        } else if (tipoOperacao == '*') {
+            result = parseInt(num1) * parseInt(num2);
+        } else if (tipoOperacao == '/') {
+            result = parseInt(num1) / parseInt(num2);
         }
         else {
             result = "Operação inválida";
-            console.log("Só suportamos '+' até o momento!");
+            console.log("Ta errado senhora");
         }
     }
 
