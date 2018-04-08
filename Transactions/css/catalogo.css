@@ -58,3 +58,6 @@ button {
 .pagination a:hover {
     background-color: #addaff ;
 }
+#coluna_cod_produto, #coluna_preco {
+    width: 170px !important;
+}
