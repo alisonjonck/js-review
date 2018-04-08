@@ -1,20 +1,60 @@
 table {
     width: 100%;
     border-collapse: collapse;
+        
+}
+th{
+    background-color: #8f969c;
+    color:white;
 }
 th, td {
-    border: 1px solid #000;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #7cc4ff;
+    color: white;
+}
+.table-header{
+    padding: 4px;
+    
 }
 button {
+    border: 2px solid  rgb(3, 94, 179);
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: rgb(3, 94, 179);
     color: white;
-    font-size: 17px;
+    height: 42px;
+    font-size: 24px;
     padding: 5px;
     cursor: pointer;
+    margin-left: 8px;
 }
 .button:hover {
     background-color: white;
-    color: #4CAF50;
+    color: rgb(3, 94, 179);
 
+}
+.titulo {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px ;
+    cursor: pointer;
+}
+.pagination a:hover {
+    background-color: #addaff ;
 }
