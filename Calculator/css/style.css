@@ -1,0 +1,24 @@
+body {
+    background-color: #fefefe;
+}
+
+.title {
+    color: purple;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.button {
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: white;
+    color: green;
+
+}

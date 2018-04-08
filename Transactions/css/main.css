@@ -1,0 +1,35 @@
+nav.navbar {
+    background-color: #58b4ff;
+    min-height: 50px;
+    padding: 15px;
+    color: white;
+    text-align: left;
+    font-size: 36px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    
+}
+
+.breadcrumbs {
+    background-color: #035eb3;
+    color: white;
+    padding: 8px 16px;
+}
+
+main {
+    background-color: #fefefe;
+}
+
+main > section.container {
+    height: 65%;
+    min-height: 450px;
+}
+
+footer {
+   background: #035eb3;
+    padding: 16px;
+    color: #fff;
+    text-align: right;
+}
+body{
+    font-family: "Segoe UI",Arial,sans-serif;
+}
