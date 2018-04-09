@@ -28,8 +28,12 @@ footer {
    background: #035eb3;
     padding: 16px;
     color: #fff;
-    text-align: right;
+    text-align: bottom;
+    align: bottom;
 }
 body{
     font-family: "Segoe UI",Arial,sans-serif;
+}
+.chart{
+    
 }
