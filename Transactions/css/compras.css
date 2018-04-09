@@ -64,17 +64,23 @@ button {
 .chart{
     display: flex;
     justify-content: center;
-    margin=left: auto;
-    margin-right: auto;
+ 
     
 }
+
 footer{
     text-align: bottom;
     float: bottom;
+    display: flex;
+    justify-content: flex-end;
 }
 .content {
     display: inline;
-    align-items: baseline;
+    align-items: center;
     justify-content: start;
 
+}
+main > section.container {
+    height: auto !important;
+    min-height: 450px;
 }
