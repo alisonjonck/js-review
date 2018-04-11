@@ -1,37 +1,43 @@
 <HTML>
 <link href="css/style.css" rel="stylesheet">
+<link href="css/calc.css" rel="stylesheet">
+
 <Head>
     <title>JS Review</title>
-    
+
 </Head>
 
 <body>
-    <div>
+    <div class="container">
         <h1 class="title">
             Calculator
         </h1>
         <p>
-            
-            <button id="btnHello" class="button"> Hello World!</button>
-            <button id="btnClean" class="button">Limpar</button>
-
-
-            <select id="primeiroOperador">
+            <div class="operation">
+                <select id="primeiroOperador" class="select">
                 <option>-</option>
-            </select>
+                </select>
 
-            <select id="operador">
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="*">*</option>
-                <option value="/">/</option>
-            </select>
+                <select id="operador" class="select">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
 
 
-            <select id="segundoOperador">
-                <option>-</option>
-            </select>
-            <input type="text" id="resultado">
+                <select id="segundoOperador" class="select">
+                    <option>-</option>
+                </select>
+            </div>
+            <div class="result">
+                <input type="text" id="resultado" class="input">
+            </div>
+            <div class="action">
+                <button id="btnHello" class="button"> Hello World!</button>
+                <button id="btnClean" class="button">Limpar</button>
+            </div>
+
         </p>
     </div>
 </body>

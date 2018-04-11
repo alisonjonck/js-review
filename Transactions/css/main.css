@@ -5,8 +5,7 @@ nav.navbar {
     color: white;
     text-align: left;
     font-size: 36px;
-    font-family: "Segoe UI",Arial,sans-serif;
-    
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .breadcrumbs {
@@ -19,17 +18,17 @@ main {
     background-color: #fefefe;
 }
 
-main > section.container {
-    height: 65%;
-    min-height: 450px;
+main>section.container {
+    height: 50%;
+    min-height: 336px;
 }
 
 footer {
-   background: #035eb3;
+    background: #035eb3;
     padding: 16px;
     color: #fff;
-    text-align: right;
 }
-body{
-    font-family: "Segoe UI",Arial,sans-serif;
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
 }
