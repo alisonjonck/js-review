@@ -1,0 +1,139 @@
+\\table settings table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    padding: 4px;
+}
+
+th {
+    background-color: #8f969c;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #7cc4ff;
+    color: white;
+}
+
+#coluna_cod_produto,
+#coluna_preco {
+    width: 170px !important;
+}
+
+footer {
+    text-align: bottom;
+    float: bottom;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    border: 1px solid #6d7174;
+    border-radius: 5px;
+    background-color: rgb(142, 172, 228);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(3, 94, 179);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #addaff;
+}
+
+.chart {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+
+.content {
+    display: inline;
+    align-items: center;
+    justify-content: start;
+}
+
+main>section.container {
+    height: auto !important;
+    min-height: 450px;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.input {
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.select {
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+    font-size: 25px;
+    color: #6d7174;
+}
+
+.operation {
+    font-size: 25px;
+    padding: 4px;
+}
+
+.result {
+    width: 40em;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.action {
+    width: 40em;
+    font-size: 25px;
+    padding: 4px;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #aaa1ff;
+    width: 19%;
+    height: 90%;
+    padding: 4px;
+    border: 2px solid black;
+}
